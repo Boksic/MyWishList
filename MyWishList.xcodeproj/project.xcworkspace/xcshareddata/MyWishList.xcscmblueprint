@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d1d22d3f-1980-4b80-b1a7-da648be38cfc++3777" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "d1d22d3f-1980-4b80-b1a7-da648be38cfc++3777" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "908A4CE5-39BC-4207-9F60-1A1A2B304340",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "d1d22d3f-1980-4b80-b1a7-da648be38cfc++3777" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyWishList",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyWishList.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/projets2.ens.math-info.univ-paris5.fr\/svn\/2013-paris30",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d1d22d3f-1980-4b80-b1a7-da648be38cfc++3777"
+    }
+  ]
+}

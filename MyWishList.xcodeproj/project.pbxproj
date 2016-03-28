@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652A7A291B38501D0064BD75 /* AddEvenementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A7A281B38501D0064BD75 /* AddEvenementViewController.swift */; };
+		652A7A2B1B3857CD0064BD75 /* Plus-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 652A7A2A1B3857CD0064BD75 /* Plus-50.png */; };
+		652A7A2F1B396B550064BD75 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A7A2E1B396B550064BD75 /* EventTableViewCell.swift */; };
+		652A7A311B3982ED0064BD75 /* ModelEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652A7A301B3982ED0064BD75 /* ModelEvent.swift */; };
+		656B22351B2F1C9E00C878B7 /* MyWishList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 656B22331B2F1C9E00C878B7 /* MyWishList.xcdatamodeld */; };
+		656B223C1B2F1C9E00C878B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656B223B1B2F1C9E00C878B7 /* Images.xcassets */; };
+		656B223F1B2F1C9E00C878B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656B223D1B2F1C9E00C878B7 /* LaunchScreen.xib */; };
+		656B224B1B2F1C9E00C878B7 /* MyWishListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B224A1B2F1C9E00C878B7 /* MyWishListTests.swift */; };
+		656B22551B2F1D0C00C878B7 /* ModelVoeu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B22541B2F1D0C00C878B7 /* ModelVoeu.swift */; };
+		656B225A1B2F1D1E00C878B7 /* NouveauVoeuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B22561B2F1D1E00C878B7 /* NouveauVoeuTableViewController.swift */; };
+		656B225B1B2F1D1E00C878B7 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B22571B2F1D1E00C878B7 /* ListTableViewController.swift */; };
+		656B225C1B2F1D1E00C878B7 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B22581B2F1D1E00C878B7 /* CustomCellTableViewCell.swift */; };
+		656B225F1B2F1D2A00C878B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B225E1B2F1D2A00C878B7 /* AppDelegate.swift */; };
+		656B22611B2F1D3700C878B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656B22601B2F1D3700C878B7 /* Main.storyboard */; };
+		658BDFFA1B33193100FD6CC3 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 658BDFF91B33193100FD6CC3 /* placeholder.png */; };
+		658BDFFC1B3412E400FD6CC3 /* EvenementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658BDFFB1B3412E400FD6CC3 /* EvenementsTableViewController.swift */; };
+		65AE8BB81B3023E200059F01 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE8BB01B3023E200059F01 /* libPayPalMobile.a */; };
+		65AE8BBB1B30242F00059F01 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE8BBA1B30242F00059F01 /* Accelerate.framework */; };
+		65AE8BBD1B30243600059F01 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE8BBC1B30243600059F01 /* AudioToolbox.framework */; };
+		65AE8BBF1B30243D00059F01 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE8BBE1B30243D00059F01 /* AVFoundation.framework */; };
+		65AE8BC11B30244500059F01 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE8BC01B30244500059F01 /* CoreLocation.framework */; };
+		65AE8BC31B30245000059F01 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE8BC21B30245000059F01 /* CoreMedia.framework */; };
+		65AE8BC51B30245900059F01 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE8BC41B30245900059F01 /* MessageUI.framework */; };
+		65AE8BC71B30246200059F01 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE8BC61B30246200059F01 /* MobileCoreServices.framework */; };
+		65AE8BC91B30247600059F01 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE8BC81B30247600059F01 /* SystemConfiguration.framework */; };
+		65AE8BE01B30608500059F01 /* PayPalPaymentDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AE8BDF1B30608500059F01 /* PayPalPaymentDelegate.m */; };
+		65F092F21B32BE1A00B4F887 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F092F11B32BE1A00B4F887 /* DetailsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		656B22451B2F1C9E00C878B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656B22241B2F1C9E00C878B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656B222B1B2F1C9E00C878B7;
+			remoteInfo = MyWishList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		652A7A281B38501D0064BD75 /* AddEvenementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEvenementViewController.swift; sourceTree = "<group>"; };
+		652A7A2A1B3857CD0064BD75 /* Plus-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Plus-50.png"; path = "../../Downloads/Plus-50.png"; sourceTree = "<group>"; };
+		652A7A2E1B396B550064BD75 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		652A7A301B3982ED0064BD75 /* ModelEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelEvent.swift; path = ../ModelEvent.swift; sourceTree = "<group>"; };
+		656B222C1B2F1C9E00C878B7 /* MyWishList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWishList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		656B22301B2F1C9E00C878B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656B22341B2F1C9E00C878B7 /* MyWishList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyWishList.xcdatamodel; sourceTree = "<group>"; };
+		656B223B1B2F1C9E00C878B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		656B223E1B2F1C9E00C878B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		656B22441B2F1C9E00C878B7 /* MyWishListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWishListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		656B22491B2F1C9E00C878B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656B224A1B2F1C9E00C878B7 /* MyWishListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWishListTests.swift; sourceTree = "<group>"; };
+		656B22541B2F1D0C00C878B7 /* ModelVoeu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelVoeu.swift; sourceTree = "<group>"; };
+		656B22561B2F1D1E00C878B7 /* NouveauVoeuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NouveauVoeuTableViewController.swift; sourceTree = "<group>"; };
+		656B22571B2F1D1E00C878B7 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		656B22581B2F1D1E00C878B7 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		656B225E1B2F1D2A00C878B7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		656B22601B2F1D3700C878B7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		658BDFF91B33193100FD6CC3 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../../Downloads/placeholder.png; sourceTree = "<group>"; };
+		658BDFFB1B3412E400FD6CC3 /* EvenementsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvenementsTableViewController.swift; sourceTree = "<group>"; };
+		65AE8BA81B3023E200059F01 /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		65AE8BA91B3023E200059F01 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		65AE8BAA1B3023E200059F01 /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
+		65AE8BAB1B3023E200059F01 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		65AE8BAC1B3023E200059F01 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		65AE8BAD1B3023E200059F01 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
+		65AE8BAE1B3023E200059F01 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		65AE8BAF1B3023E200059F01 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		65AE8BB01B3023E200059F01 /* libPayPalMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMobile.a; sourceTree = "<group>"; };
+		65AE8BB11B3023E200059F01 /* PayPalConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalConfiguration.h; sourceTree = "<group>"; };
+		65AE8BB21B3023E200059F01 /* PayPalFuturePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalFuturePaymentViewController.h; sourceTree = "<group>"; };
+		65AE8BB31B3023E200059F01 /* PayPalMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalMobile.h; sourceTree = "<group>"; };
+		65AE8BB41B3023E200059F01 /* PayPalOAuthScopes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalOAuthScopes.h; sourceTree = "<group>"; };
+		65AE8BB51B3023E200059F01 /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		65AE8BB61B3023E200059F01 /* PayPalPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPaymentViewController.h; sourceTree = "<group>"; };
+		65AE8BB71B3023E200059F01 /* PayPalProfileSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalProfileSharingViewController.h; sourceTree = "<group>"; };
+		65AE8BBA1B30242F00059F01 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		65AE8BBC1B30243600059F01 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		65AE8BBE1B30243D00059F01 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		65AE8BC01B30244500059F01 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		65AE8BC21B30245000059F01 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		65AE8BC41B30245900059F01 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		65AE8BC61B30246200059F01 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		65AE8BC81B30247600059F01 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		65AE8BCC1B3058E800059F01 /* MyWishList-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyWishList-Bridging-Header.h"; sourceTree = "<group>"; };
+		65AE8BDE1B30608500059F01 /* PayPalPaymentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPaymentDelegate.h; sourceTree = "<group>"; };
+		65AE8BDF1B30608500059F01 /* PayPalPaymentDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPalPaymentDelegate.m; sourceTree = "<group>"; };
+		65F092F11B32BE1A00B4F887 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		656B22291B2F1C9E00C878B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AE8BC91B30247600059F01 /* SystemConfiguration.framework in Frameworks */,
+				65AE8BC71B30246200059F01 /* MobileCoreServices.framework in Frameworks */,
+				65AE8BC51B30245900059F01 /* MessageUI.framework in Frameworks */,
+				65AE8BC31B30245000059F01 /* CoreMedia.framework in Frameworks */,
+				65AE8BC11B30244500059F01 /* CoreLocation.framework in Frameworks */,
+				65AE8BBF1B30243D00059F01 /* AVFoundation.framework in Frameworks */,
+				65AE8BBD1B30243600059F01 /* AudioToolbox.framework in Frameworks */,
+				65AE8BBB1B30242F00059F01 /* Accelerate.framework in Frameworks */,
+				65AE8BB81B3023E200059F01 /* libPayPalMobile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656B22411B2F1C9E00C878B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652A7A321B398F780064BD75 /* Evenement */ = {
+			isa = PBXGroup;
+			children = (
+				652A7A301B3982ED0064BD75 /* ModelEvent.swift */,
+				652A7A281B38501D0064BD75 /* AddEvenementViewController.swift */,
+				658BDFFB1B3412E400FD6CC3 /* EvenementsTableViewController.swift */,
+				652A7A2E1B396B550064BD75 /* EventTableViewCell.swift */,
+			);
+			name = Evenement;
+			sourceTree = "<group>";
+		};
+		652A7A331B398F880064BD75 /* Voeu */ = {
+			isa = PBXGroup;
+			children = (
+				656B22541B2F1D0C00C878B7 /* ModelVoeu.swift */,
+				656B22561B2F1D1E00C878B7 /* NouveauVoeuTableViewController.swift */,
+				656B22571B2F1D1E00C878B7 /* ListTableViewController.swift */,
+				656B22581B2F1D1E00C878B7 /* CustomCellTableViewCell.swift */,
+				65F092F11B32BE1A00B4F887 /* DetailsTableViewController.swift */,
+			);
+			name = Voeu;
+			sourceTree = "<group>";
+		};
+		656B22231B2F1C9E00C878B7 = {
+			isa = PBXGroup;
+			children = (
+				658BDFF81B33190500FD6CC3 /* Image */,
+				65AE8BB91B3023FD00059F01 /* Frameworks */,
+				656B222E1B2F1C9E00C878B7 /* MyWishList */,
+				656B22471B2F1C9E00C878B7 /* MyWishListTests */,
+				656B222D1B2F1C9E00C878B7 /* Products */,
+				65AE8BA71B3023E200059F01 /* PayPalMobile */,
+			);
+			sourceTree = "<group>";
+		};
+		656B222D1B2F1C9E00C878B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656B222C1B2F1C9E00C878B7 /* MyWishList.app */,
+				656B22441B2F1C9E00C878B7 /* MyWishListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		656B222E1B2F1C9E00C878B7 /* MyWishList */ = {
+			isa = PBXGroup;
+			children = (
+				656B225E1B2F1D2A00C878B7 /* AppDelegate.swift */,
+				652A7A331B398F880064BD75 /* Voeu */,
+				652A7A321B398F780064BD75 /* Evenement */,
+				656B22601B2F1D3700C878B7 /* Main.storyboard */,
+				656B223B1B2F1C9E00C878B7 /* Images.xcassets */,
+				656B223D1B2F1C9E00C878B7 /* LaunchScreen.xib */,
+				656B22331B2F1C9E00C878B7 /* MyWishList.xcdatamodeld */,
+				656B222F1B2F1C9E00C878B7 /* Supporting Files */,
+				65AE8BCC1B3058E800059F01 /* MyWishList-Bridging-Header.h */,
+				65AE8BDE1B30608500059F01 /* PayPalPaymentDelegate.h */,
+				65AE8BDF1B30608500059F01 /* PayPalPaymentDelegate.m */,
+			);
+			path = MyWishList;
+			sourceTree = "<group>";
+		};
+		656B222F1B2F1C9E00C878B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				656B22301B2F1C9E00C878B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		656B22471B2F1C9E00C878B7 /* MyWishListTests */ = {
+			isa = PBXGroup;
+			children = (
+				656B224A1B2F1C9E00C878B7 /* MyWishListTests.swift */,
+				656B22481B2F1C9E00C878B7 /* Supporting Files */,
+			);
+			path = MyWishListTests;
+			sourceTree = "<group>";
+		};
+		656B22481B2F1C9E00C878B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				656B22491B2F1C9E00C878B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		658BDFF81B33190500FD6CC3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				652A7A2A1B3857CD0064BD75 /* Plus-50.png */,
+				658BDFF91B33193100FD6CC3 /* placeholder.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		65AE8BA71B3023E200059F01 /* PayPalMobile */ = {
+			isa = PBXGroup;
+			children = (
+				65AE8BA81B3023E200059F01 /* CardIO.h */,
+				65AE8BA91B3023E200059F01 /* CardIOCreditCardInfo.h */,
+				65AE8BAA1B3023E200059F01 /* CardIODetectionMode.h */,
+				65AE8BAB1B3023E200059F01 /* CardIOPaymentViewController.h */,
+				65AE8BAC1B3023E200059F01 /* CardIOPaymentViewControllerDelegate.h */,
+				65AE8BAD1B3023E200059F01 /* CardIOUtilities.h */,
+				65AE8BAE1B3023E200059F01 /* CardIOView.h */,
+				65AE8BAF1B3023E200059F01 /* CardIOViewDelegate.h */,
+				65AE8BB01B3023E200059F01 /* libPayPalMobile.a */,
+				65AE8BB11B3023E200059F01 /* PayPalConfiguration.h */,
+				65AE8BB21B3023E200059F01 /* PayPalFuturePaymentViewController.h */,
+				65AE8BB31B3023E200059F01 /* PayPalMobile.h */,
+				65AE8BB41B3023E200059F01 /* PayPalOAuthScopes.h */,
+				65AE8BB51B3023E200059F01 /* PayPalPayment.h */,
+				65AE8BB61B3023E200059F01 /* PayPalPaymentViewController.h */,
+				65AE8BB71B3023E200059F01 /* PayPalProfileSharingViewController.h */,
+			);
+			path = PayPalMobile;
+			sourceTree = "<group>";
+		};
+		65AE8BB91B3023FD00059F01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65AE8BC81B30247600059F01 /* SystemConfiguration.framework */,
+				65AE8BC61B30246200059F01 /* MobileCoreServices.framework */,
+				65AE8BC41B30245900059F01 /* MessageUI.framework */,
+				65AE8BC21B30245000059F01 /* CoreMedia.framework */,
+				65AE8BC01B30244500059F01 /* CoreLocation.framework */,
+				65AE8BBE1B30243D00059F01 /* AVFoundation.framework */,
+				65AE8BBC1B30243600059F01 /* AudioToolbox.framework */,
+				65AE8BBA1B30242F00059F01 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		656B222B1B2F1C9E00C878B7 /* MyWishList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656B224E1B2F1C9E00C878B7 /* Build configuration list for PBXNativeTarget "MyWishList" */;
+			buildPhases = (
+				656B22281B2F1C9E00C878B7 /* Sources */,
+				656B22291B2F1C9E00C878B7 /* Frameworks */,
+				656B222A1B2F1C9E00C878B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWishList;
+			productName = MyWishList;
+			productReference = 656B222C1B2F1C9E00C878B7 /* MyWishList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		656B22431B2F1C9E00C878B7 /* MyWishListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656B22511B2F1C9E00C878B7 /* Build configuration list for PBXNativeTarget "MyWishListTests" */;
+			buildPhases = (
+				656B22401B2F1C9E00C878B7 /* Sources */,
+				656B22411B2F1C9E00C878B7 /* Frameworks */,
+				656B22421B2F1C9E00C878B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656B22461B2F1C9E00C878B7 /* PBXTargetDependency */,
+			);
+			name = MyWishListTests;
+			productName = MyWishListTests;
+			productReference = 656B22441B2F1C9E00C878B7 /* MyWishListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		656B22241B2F1C9E00C878B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Boksic Rodrigo";
+				TargetAttributes = {
+					656B222B1B2F1C9E00C878B7 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					656B22431B2F1C9E00C878B7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 656B222B1B2F1C9E00C878B7;
+					};
+				};
+			};
+			buildConfigurationList = 656B22271B2F1C9E00C878B7 /* Build configuration list for PBXProject "MyWishList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 656B22231B2F1C9E00C878B7;
+			productRefGroup = 656B222D1B2F1C9E00C878B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				656B222B1B2F1C9E00C878B7 /* MyWishList */,
+				656B22431B2F1C9E00C878B7 /* MyWishListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		656B222A1B2F1C9E00C878B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656B223F1B2F1C9E00C878B7 /* LaunchScreen.xib in Resources */,
+				656B223C1B2F1C9E00C878B7 /* Images.xcassets in Resources */,
+				656B22611B2F1D3700C878B7 /* Main.storyboard in Resources */,
+				658BDFFA1B33193100FD6CC3 /* placeholder.png in Resources */,
+				652A7A2B1B3857CD0064BD75 /* Plus-50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656B22421B2F1C9E00C878B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		656B22281B2F1C9E00C878B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652A7A2F1B396B550064BD75 /* EventTableViewCell.swift in Sources */,
+				652A7A291B38501D0064BD75 /* AddEvenementViewController.swift in Sources */,
+				65AE8BE01B30608500059F01 /* PayPalPaymentDelegate.m in Sources */,
+				656B225A1B2F1D1E00C878B7 /* NouveauVoeuTableViewController.swift in Sources */,
+				652A7A311B3982ED0064BD75 /* ModelEvent.swift in Sources */,
+				656B22551B2F1D0C00C878B7 /* ModelVoeu.swift in Sources */,
+				656B225C1B2F1D1E00C878B7 /* CustomCellTableViewCell.swift in Sources */,
+				65F092F21B32BE1A00B4F887 /* DetailsTableViewController.swift in Sources */,
+				656B22351B2F1C9E00C878B7 /* MyWishList.xcdatamodeld in Sources */,
+				658BDFFC1B3412E400FD6CC3 /* EvenementsTableViewController.swift in Sources */,
+				656B225F1B2F1D2A00C878B7 /* AppDelegate.swift in Sources */,
+				656B225B1B2F1D1E00C878B7 /* ListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656B22401B2F1C9E00C878B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656B224B1B2F1C9E00C878B7 /* MyWishListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		656B22461B2F1C9E00C878B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656B222B1B2F1C9E00C878B7 /* MyWishList */;
+			targetProxy = 656B22451B2F1C9E00C878B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		656B223D1B2F1C9E00C878B7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				656B223E1B2F1C9E00C878B7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		656B224C1B2F1C9E00C878B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		656B224D1B2F1C9E00C878B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		656B224F1B2F1C9E00C878B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MyWishList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayPalMobile",
+				);
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyWishList/MyWishList-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		656B22501B2F1C9E00C878B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MyWishList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayPalMobile",
+				);
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyWishList/MyWishList-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		656B22521B2F1C9E00C878B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyWishListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWishList.app/MyWishList";
+			};
+			name = Debug;
+		};
+		656B22531B2F1C9E00C878B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyWishListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWishList.app/MyWishList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		656B22271B2F1C9E00C878B7 /* Build configuration list for PBXProject "MyWishList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656B224C1B2F1C9E00C878B7 /* Debug */,
+				656B224D1B2F1C9E00C878B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656B224E1B2F1C9E00C878B7 /* Build configuration list for PBXNativeTarget "MyWishList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656B224F1B2F1C9E00C878B7 /* Debug */,
+				656B22501B2F1C9E00C878B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656B22511B2F1C9E00C878B7 /* Build configuration list for PBXNativeTarget "MyWishListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656B22521B2F1C9E00C878B7 /* Debug */,
+				656B22531B2F1C9E00C878B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		656B22331B2F1C9E00C878B7 /* MyWishList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				656B22341B2F1C9E00C878B7 /* MyWishList.xcdatamodel */,
+			);
+			currentVersion = 656B22341B2F1C9E00C878B7 /* MyWishList.xcdatamodel */;
+			path = MyWishList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 656B22241B2F1C9E00C878B7 /* Project object */;
+}
